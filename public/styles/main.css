@@ -1,0 +1,30 @@
+/* Display: inline (ocupa apenas o tamanho do elemento) block (ocupa toda a linha do elemento*/
+
+:root { /*referenciando a raiz do doc*/
+    --title-color: #322153; /*variavel de atalho --*/
+    --primary-color: #34cb79;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*o tamanho da caixa vai até a borda*/
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color)
+}
